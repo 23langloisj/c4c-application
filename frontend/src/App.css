@@ -21,6 +21,16 @@
   gap: 25px;
 }
 
+#active {
+  color: green;
+  font-weight: bold;
+}
+
+#inactive {
+  color: red;
+  font-weight: bold;
+}
+
 h1.title {
   text-align: center;
   font-size: 24pt;
@@ -38,11 +48,13 @@ h1.title {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   border: 1px solid #3d3d3d;
   border-radius: 12px;
 
-  padding: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .partner-thumbnail {
@@ -52,4 +64,5 @@ h1.title {
 
 .partner-info {
   font-size: 0.9em;
+  overflow: auto;
 }

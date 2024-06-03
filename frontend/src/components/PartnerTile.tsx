@@ -9,7 +9,6 @@ interface PartnerTileProps {
   partnerData: PartnerData
 }
 
-// @ts-expect-error: This variable is currently unused. You will have to either use them or remove them (at which point you should remove this comment)
 function PartnerTile({ partnerData }: PartnerTileProps) {
 
   return (
@@ -17,7 +16,15 @@ function PartnerTile({ partnerData }: PartnerTileProps) {
       <img className="partner-thumbnail" src='' />
       <hr />
       <div className="partner-info">
-        This is some placeholder content - you'll need to replace the content here with actual partner information.
+        <h1>{partnerData.name}</h1>
+        {partnerData.active ? (
+          <p id="active">Active!</p>
+        ) : (
+          <p id="inactive">Inactive</p>
+        )}
+        <p>{partnerData.active}</p>
+        <img className="partner-thumbnail" src={partnerData.thumbnailUrl} alt={partnerData.name} />
+        <p>{partnerData.description}</p>
       </div>
     </div>
   )
