@@ -1,5 +1,4 @@
 export interface PartnerData {
-    key: string;
     name: string;
     thumbnailUrl: string;
     description: string;

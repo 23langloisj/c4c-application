@@ -1,0 +1,65 @@
+// AddPartner Form Css
+
+* {
+    background-color: #f9f9f9;
+}
+.add-partner-form {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+  
+  .add-partner-form div {
+    margin-bottom: 15px;
+  }
+
+  .add-partner-form div h1 {
+    text-align: center;
+  }
+  
+  .add-partner-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-partner-form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-partner-form input[type="checkbox"] {
+    margin-left: 5px;
+  }
+  
+  .add-partner-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-partner-form button:hover {
+    background-color: #218838;
+  }
+  
+
+and this part isn't doing anything:
+
+.add-partner-form {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }

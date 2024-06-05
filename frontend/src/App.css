@@ -55,6 +55,7 @@ h1.title {
 
   padding-left: 25px;
   padding-right: 25px;
+  position: relative;
 }
 
 .partner-thumbnail {
@@ -66,3 +67,17 @@ h1.title {
   font-size: 0.9em;
   overflow: auto;
 }
+
+.delete-form {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+
+.delete-partner {
+  background-color: red;
+  /* Optionally add some padding or margin to adjust the position */
+  padding: 5px 10px;
+  margin: 5px;
+}
+
