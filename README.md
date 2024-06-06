@@ -16,7 +16,7 @@ This project is a full-stack web application utilizing Node.js and Express.js fo
 1. Clone the repository:
     ```bash
     git clone https://github.com/23langloisj/c4c-application.git
-    cd c4c-application.git
+    cd c4c-application
     ```
 
 2. Install the dependencies:
